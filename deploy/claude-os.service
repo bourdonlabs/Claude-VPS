@@ -1,0 +1,17 @@
+[Unit]
+Description=Claude OS dashboard
+After=network.target
+[Service]
+User=claudeos
+Group=claudeos
+WorkingDirectory=/opt/claude-os/app
+ExecStart=/usr/local/bin/bun ./node_modules/vite/bin/vite.js dev --host 127.0.0.1 --port 8081
+Restart=always
+RestartSec=3
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/claude-os
+[Install]
+WantedBy=multi-user.target

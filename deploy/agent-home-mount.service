@@ -1,0 +1,11 @@
+[Unit]
+Description=Id-mapped agent-volume mount for Claude OS (see deploy/README.md RULES)
+RequiresMountsFor=/var/lib/docker/volumes/YOUR_AGENT_VOLUME/_data
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+# Map the agent's uid:gid (e.g. 10010:10000) to your service user's (e.g. 999:987).
+ExecStart=/usr/bin/mount -o 'bind,X-mount.idmap=u:10010:999:1 g:10000:987:1' /var/lib/docker/volumes/YOUR_AGENT_VOLUME/_data /opt/agent-home
+ExecStop=/usr/bin/umount /opt/agent-home
+[Install]
+WantedBy=multi-user.target

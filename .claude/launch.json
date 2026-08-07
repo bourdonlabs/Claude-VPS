@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "claude-os",
+      "runtimeExecutable": "bun",
+      "runtimeArgs": ["run", "dev"],
+      "port": 8081
+    },
+    {
+      "name": "voice-lab",
+      "runtimeExecutable": "bun",
+      "runtimeArgs": ["run", "voice-lab/server.ts"],
+      "port": 8099
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+[Unit]
+Description=Claude OS aggregator (writes src/data/live-data.json)
+[Service]
+Type=oneshot
+User=claudeos
+Group=claudeos
+WorkingDirectory=/opt/claude-os/app
+ExecStart=/usr/local/bin/bun run scripts/aggregate.ts
+ReadWritePaths=/opt/claude-os

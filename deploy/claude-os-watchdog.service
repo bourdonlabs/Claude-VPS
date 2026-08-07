@@ -1,0 +1,5 @@
+[Unit]
+Description=Claude OS liveness watchdog
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c 'CODE=$(curl -s -o /dev/null -w "%%{http_code}" --max-time 10 http://127.0.0.1:8081/ || echo 000); S=/opt/claude-os/.watchdog-fails; if [ "$CODE" = 200 ]; then rm -f $S; exit 0; fi; F=$(( $(cat $S 2>/dev/null || echo 0) + 1 )); echo $F > $S; [ $F -lt 2 ] && exit 0; systemctl restart claude-os.service; rm -f $S'
