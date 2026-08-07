@@ -32,7 +32,7 @@ of capability logos, draggable chat, and the bundled **voice-lab** backend.
    - Mounts `<IntelligencePortal state={…} events={intelEvents} demo={…} onVoiceRequest={askHermes} onClose={…} />`.
    - The dashboard chat's KG call now sends `{ yolo:true, graph:true }` (see vite.config below).
 2. **`vite.config.ts`** — in the `/__hermes_chat` middleware, **decouple yolo from the graphify skill**
-   (this branch's key fix — Jack's Hermes has no `graphify` skill, so the old `yolo`→`-s graphify`
+   (this branch's key fix — John's Hermes has no `graphify` skill, so the old `yolo`→`-s graphify`
    errored on every tool call):
    - payload type: add `graph?: boolean`; parse `const graph = payload.graph === true;`
    - replace `if (yolo) args.push("--yolo", "-s", "graphify");`
