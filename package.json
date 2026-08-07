@@ -1,12 +1,12 @@
 {
   "name": "claude-os",
   "description": "A one-page, read-only operator console for your AI tool stack.",
-  "author": "Jack Roberts",
+  "author": "John Bourdon",
   "license": "SEE LICENSE IN LICENSE",
-  "homepage": "https://github.com/ItsssssJack/claude-operating-system",
+  "homepage": "https://github.com/bourdonlabs/claude-operating-system",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ItsssssJack/claude-operating-system.git"
+    "url": "https://github.com/bourdonlabs/claude-operating-system.git"
   },
   "private": true,
   "sideEffects": false,
