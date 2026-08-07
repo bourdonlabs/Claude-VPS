@@ -505,4 +505,4 @@ If the sidecar isn't reachable, the wizard surfaces a clear "restart `bun run de
 
 ## License
 
-Personal & Commercial Use License with Attribution. See [`LICENSE`](LICENSE). You may use and modify Claude OS for personal use AND commercial work (client projects, freelance, day job, internal tooling). You must credit "Claude OS by Jack Roberts" on any public deliverable it materially contributed to. You may not redistribute, repackage, sell, or re-upload it.
+Personal & Commercial Use License with Attribution. See [`LICENSE`](LICENSE). You may use and modify Claude OS for personal use AND commercial work (client projects, freelance, day job, internal tooling). You must credit "Claude OS by John Bourdon" on any public deliverable it materially contributed to. You may not redistribute, repackage, sell, or re-upload it.
