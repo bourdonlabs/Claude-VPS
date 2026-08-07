@@ -1,9 +1,9 @@
 Claude OS — Personal & Commercial Use License with Attribution
 ================================================================
 
-Copyright (c) 2026 Jack Roberts. All rights reserved.
+Copyright (c) 2026 John Bourdon. All rights reserved.
 
-This software is distributed to members of Jack Roberts' community for
+This software is distributed to members of John Bourdon' community for
 personal use AND commercial use in their own work (including client
 projects, freelance deliverables, and internal company tooling),
 subject to the conditions below.
@@ -16,11 +16,11 @@ YOU MAY:
   ✓ Run it indefinitely on any number of personal or work machines
 
 YOU MUST:
-  ★ Provide visible attribution to "Claude OS by Jack Roberts" in any
+  ★ Provide visible attribution to "Claude OS by John Bourdon" in any
     public deliverable, presentation, blog post, video, social-media
     post, or product page where this software materially contributed
     to the work, with a link to:
-       https://github.com/ItsssssJack/claude-operating-system
+       https://github.com/bourdonlabs/claude-operating-system
     A single line in the README, footer, credits screen, or
     description is sufficient. Internal-only use (purely within your
     own organisation, not shown to the public) does not require
@@ -76,7 +76,7 @@ COMMERCIAL / REDISTRIBUTION LICENSE
   hosting-for-others, or community-gated access. If you want to do any
   of those, you must obtain a separate written license from the author
   first. Enquire via the project page:
-  https://github.com/ItsssssJack/claude-operating-system
+  https://github.com/bourdonlabs/claude-operating-system
 
 RESERVATION OF RIGHTS
   All rights not expressly granted above are reserved by the author. No
@@ -86,7 +86,7 @@ RESERVATION OF RIGHTS
   transferred.
 
 GOVERNING LAW
-  This license is governed by the laws of England and Wales, and any
+  This license is governed by the laws of Canada, and any
   dispute is subject to the exclusive jurisdiction of its courts.
   (Maintainer: set this to your own jurisdiction if different.)
 
